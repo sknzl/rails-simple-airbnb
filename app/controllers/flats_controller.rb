@@ -5,6 +5,7 @@ class FlatsController < ApplicationController
   # GET /flats.json
   def index
     filter= "'%#{params[:search]}%'"
+    @filter_form = params[:search]
     @flats = Flat.where("name LIKE #{filter}")
   end
 
