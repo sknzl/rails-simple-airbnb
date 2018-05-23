@@ -1,0 +1,49 @@
+// Specific CSS for your home-page
+.container{
+  margin: 0 auto;
+  padding-top: 100px;
+  text-align: center;
+  width: 70%;
+}
+
+/* Main navbar */
+.navbar-wagon {
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+  background: rgb(245,245,245);
+  transition: all 0.3s ease;
+  height: 70px;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0;
+  width: 100%;
+}
+
+/* Logo */
+.navbar-wagon-brand{
+  color: #616668;
+  font-size: 24px;
+  font-style: bold;
+}
+
+.navbar-wagon-brand:hover {
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+/* Right section */
+.navbar-wagon-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  a {
+    margin-left: 20px;
+  }
+}
+
+.formarea {
+  height: 500px;
+}
